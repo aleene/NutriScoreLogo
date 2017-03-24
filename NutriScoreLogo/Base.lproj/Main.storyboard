@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1217" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NutriScoreLogo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +23,65 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="TUQ-oY-JdV">
+                                <rect key="frame" x="16" y="631" width="343" height="29"/>
+                                <segments>
+                                    <segment title="A"/>
+                                    <segment title="B"/>
+                                    <segment title="C"/>
+                                    <segment title="D"/>
+                                    <segment title="E"/>
+                                </segments>
+                                <connections>
+                                    <action selector="selectScoreSegmentedControl:" destination="BYZ-38-t0r" eventType="valueChanged" id="ex6-aI-0j1"/>
+                                </connections>
+                            </segmentedControl>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nic-lw-NOm" userLabel="Medium Nutri Score" customClass="NutriScoreView" customModule="NutriScoreLogo" customModuleProvider="target">
+                                <rect key="frame" x="94" y="205" width="188" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="nic-lw-NOm" secondAttribute="height" multiplier="312:108" id="EAG-E7-sdk"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iKQ-je-J62" userLabel="Small Nutri Score" customClass="NutriScoreView" customModule="NutriScoreLogo" customModuleProvider="target">
+                                <rect key="frame" x="150" y="320" width="75" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="iKQ-je-J62" secondAttribute="height" multiplier="312:108" id="4Mf-EL-G8A"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jLM-LZ-JbR" userLabel="Large Nutri Score" customClass="NutriScoreView" customModule="NutriScoreLogo" customModuleProvider="target">
+                                <rect key="frame" x="38" y="59" width="300" height="104"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jLM-LZ-JbR" secondAttribute="height" multiplier="312:108" id="55d-39-lQD"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iKQ-je-J62" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1h2-SD-USt"/>
+                            <constraint firstItem="nic-lw-NOm" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="5t5-VX-9PH"/>
+                            <constraint firstItem="nic-lw-NOm" firstAttribute="top" secondItem="jLM-LZ-JbR" secondAttribute="bottom" constant="42" id="7id-Jc-7Cn"/>
+                            <constraint firstItem="iKQ-je-J62" firstAttribute="top" secondItem="nic-lw-NOm" secondAttribute="bottom" constant="50" id="BYf-HC-pTo"/>
+                            <constraint firstItem="iKQ-je-J62" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.2" id="TiB-lv-1KG"/>
+                            <constraint firstItem="jLM-LZ-JbR" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="VTY-cW-Wlf"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TUQ-oY-JdV" secondAttribute="bottom" constant="8" id="cgV-Di-Shz"/>
+                            <constraint firstItem="iKQ-je-J62" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="exk-Yz-muU"/>
+                            <constraint firstItem="jLM-LZ-JbR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oDK-CW-bH6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TUQ-oY-JdV" secondAttribute="trailing" id="x8X-Sq-efP"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="TUQ-oY-JdV" secondAttribute="leading" id="xRg-ga-1Zq"/>
+                            <constraint firstItem="nic-lw-NOm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="znU-dv-V23"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="largeNutritionScore" destination="jLM-LZ-JbR" id="lQL-Q8-uZO"/>
+                        <outlet property="mediumNutritionScore" destination="nic-lw-NOm" id="k7h-4C-ZNd"/>
+                        <outlet property="scoreSegmentedControl" destination="TUQ-oY-JdV" id="V6N-or-Pmp"/>
+                        <outlet property="smallNutritionScore" destination="iKQ-je-J62" id="bMv-lD-jzI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="120.8" y="138.98050974512745"/>
         </scene>
     </scenes>
 </document>

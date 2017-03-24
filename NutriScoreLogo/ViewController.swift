@@ -9,17 +9,63 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+    @IBOutlet weak var scoreSegmentedControl: UISegmentedControl! {
+        didSet {
+            smallNutritionScore?.currentScore = nil
+            mediumNutritionScore?.currentScore = nil
+            largeNutritionScore?.currentScore = nil
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func selectScoreSegmentedControl(_ sender: UISegmentedControl) {
+        switch sender.selectedSegmentIndex {
+        case 0:
+            smallNutritionScore?.currentScore = .A
+            mediumNutritionScore?.currentScore = .A
+            largeNutritionScore?.currentScore = .A
+        case 1:
+            smallNutritionScore?.currentScore = .B
+            mediumNutritionScore?.currentScore = .B
+            largeNutritionScore?.currentScore = .B
+        case 2:
+            smallNutritionScore?.currentScore = .C
+            mediumNutritionScore?.currentScore = .C
+            largeNutritionScore?.currentScore = .C
+        case 3:
+            smallNutritionScore?.currentScore = .D
+            mediumNutritionScore?.currentScore = .D
+            largeNutritionScore?.currentScore = .D
+        case 4:
+            smallNutritionScore?.currentScore = .E
+            mediumNutritionScore?.currentScore = .E
+            largeNutritionScore?.currentScore = .E
+        default:
+            smallNutritionScore?.currentScore = nil
+            mediumNutritionScore?.currentScore = nil
+        largeNutritionScore?.currentScore = nil
+        }
+    }
+    
+    @IBOutlet weak var smallNutritionScore: NutriScoreView! {
+        didSet {
+            smallNutritionScore?.currentScore = nil
+        }
+    }
+    
+    @IBOutlet weak var mediumNutritionScore: NutriScoreView! {
+        didSet {
+            mediumNutritionScore?.currentScore = nil
+        }
     }
 
+    
+    @IBOutlet weak var largeNutritionScore: NutriScoreView! {
+        didSet {
+            largeNutritionScore?.currentScore = nil
+        }
+    }
 
+    
 }
 
