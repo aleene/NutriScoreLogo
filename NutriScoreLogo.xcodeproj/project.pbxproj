@@ -46,11 +46,10 @@
 				5117F1AA1E85221E00DCC137 /* ViewController.swift */,
 				5117F1AF1E85221E00DCC137 /* Assets.xcassets */,
 				5117F1AC1E85221E00DCC137 /* Main.storyboard */,
-				5117F1B11E85221E00DCC137 /* LaunchScreen.storyboard */,
 				5117F1C21E856FC700DCC137 /* NutriScoreView.swift */,
 				5117F1BA1E8522F200DCC137 /* NutriScoreView.xib */,
+				5117F1B11E85221E00DCC137 /* LaunchScreen.storyboard */,
 				5117F1B41E85221E00DCC137 /* Info.plist */,
-				5117F1A71E85221D00DCC137 /* NutriScore */,
 				5117F1A61E85221D00DCC137 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,14 +60,6 @@
 				5117F1A51E85221D00DCC137 /* NutriScoreLogo.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		5117F1A71E85221D00DCC137 /* NutriScore */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = NutriScore;
-			path = NutriScoreLogo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,6 +313,7 @@
 				5117F1B91E85221E00DCC137 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
