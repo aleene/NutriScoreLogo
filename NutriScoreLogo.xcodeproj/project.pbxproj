@@ -15,6 +15,7 @@
 		5117F1C31E856FC700DCC137 /* NutriScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117F1C21E856FC700DCC137 /* NutriScoreView.swift */; };
 		5117F1C51E8570F100DCC137 /* NutriScoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5117F1BA1E8522F200DCC137 /* NutriScoreView.xib */; };
 		51586E401E86AF8B00A85900 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 51586E3F1E86AF8B00A85900 /* README.md */; };
+		51586E421E86B16400A85900 /* DemoIPhone5S.png in Resources */ = {isa = PBXBuildFile; fileRef = 51586E411E86B16400A85900 /* DemoIPhone5S.png */; };
 		51BD5B251E86ACE400FA2081 /* iPhone5SscreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BD5B241E86ACE400FA2081 /* iPhone5SscreenShot.png */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		5117F1BB1E8522F200DCC137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/NutriScoreView.xib; sourceTree = "<group>"; };
 		5117F1C21E856FC700DCC137 /* NutriScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NutriScoreView.swift; path = NutriScoreLogo/NutriScoreView.swift; sourceTree = "<group>"; };
 		51586E3F1E86AF8B00A85900 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		51586E411E86B16400A85900 /* DemoIPhone5S.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = DemoIPhone5S.png; path = ../../Desktop/DemoIPhone5S.png; sourceTree = "<group>"; };
 		51BD5B241E86ACE400FA2081 /* iPhone5SscreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone5SscreenShot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,6 +57,7 @@
 				5117F1BA1E8522F200DCC137 /* NutriScoreView.xib */,
 				5117F1B11E85221E00DCC137 /* LaunchScreen.storyboard */,
 				5117F1B41E85221E00DCC137 /* Info.plist */,
+				51586E411E86B16400A85900 /* DemoIPhone5S.png */,
 				51BD5B241E86ACE400FA2081 /* iPhone5SscreenShot.png */,
 				5117F1A61E85221D00DCC137 /* Products */,
 			);
@@ -131,6 +134,7 @@
 				5117F1C51E8570F100DCC137 /* NutriScoreView.xib in Resources */,
 				51BD5B251E86ACE400FA2081 /* iPhone5SscreenShot.png in Resources */,
 				5117F1B31E85221E00DCC137 /* LaunchScreen.storyboard in Resources */,
+				51586E421E86B16400A85900 /* DemoIPhone5S.png in Resources */,
 				5117F1B01E85221E00DCC137 /* Assets.xcassets in Resources */,
 				5117F1AE1E85221E00DCC137 /* Main.storyboard in Resources */,
 			);
