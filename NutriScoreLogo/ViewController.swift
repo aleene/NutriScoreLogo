@@ -66,6 +66,26 @@ class ViewController: UIViewController {
         }
     }
 
+    func deviceDidRotate() {
+        smallNutritionScore.layoutIfNeeded()
+        mediumNutritionScore.layoutIfNeeded()
+        largeNutritionScore.layoutIfNeeded()
+    }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        NotificationCenter.default.addObserver(
+            self,
+            selector:  #selector(deviceDidRotate),
+            name: .UIDeviceOrientationDidChange,
+            object: nil
+        )
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        NotificationCenter.default.removeObserver(self)
+        super.viewWillDisappear(animated)
+    }
+
 }
 

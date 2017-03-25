@@ -26,6 +26,7 @@
 		5117F1B41E85221E00DCC137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = NutriScoreLogo/Info.plist; sourceTree = "<group>"; };
 		5117F1BB1E8522F200DCC137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/NutriScoreView.xib; sourceTree = "<group>"; };
 		5117F1C21E856FC700DCC137 /* NutriScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NutriScoreView.swift; path = NutriScoreLogo/NutriScoreView.swift; sourceTree = "<group>"; };
+		513A140B1E85973000DBE4BD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = NutriScoreLogo/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		5117F19C1E85221D00DCC137 = {
 			isa = PBXGroup;
 			children = (
+				513A140B1E85973000DBE4BD /* README.md */,
 				5117F1A81E85221E00DCC137 /* AppDelegate.swift */,
 				5117F1AA1E85221E00DCC137 /* ViewController.swift */,
 				5117F1AF1E85221E00DCC137 /* Assets.xcassets */,

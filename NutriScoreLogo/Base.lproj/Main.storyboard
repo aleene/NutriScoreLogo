@@ -38,30 +38,30 @@
                                 </connections>
                             </segmentedControl>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nic-lw-NOm" userLabel="Medium Nutri Score" customClass="NutriScoreView" customModule="NutriScoreLogo" customModuleProvider="target">
-                                <rect key="frame" x="94" y="205" width="188" height="65"/>
+                                <rect key="frame" x="94" y="295.5" width="188" height="76.5"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="nic-lw-NOm" secondAttribute="height" multiplier="312:108" id="EAG-E7-sdk"/>
+                                    <constraint firstAttribute="width" secondItem="nic-lw-NOm" secondAttribute="height" multiplier="310:126" id="EAG-E7-sdk"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iKQ-je-J62" userLabel="Small Nutri Score" customClass="NutriScoreView" customModule="NutriScoreLogo" customModuleProvider="target">
-                                <rect key="frame" x="150" y="320" width="75" height="26"/>
+                                <rect key="frame" x="150" y="422" width="75" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="iKQ-je-J62" secondAttribute="height" multiplier="312:108" id="4Mf-EL-G8A"/>
+                                    <constraint firstAttribute="width" secondItem="iKQ-je-J62" secondAttribute="height" multiplier="310:126" id="4Mf-EL-G8A"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jLM-LZ-JbR" userLabel="Large Nutri Score" customClass="NutriScoreView" customModule="NutriScoreLogo" customModuleProvider="target">
-                                <rect key="frame" x="38" y="59" width="300" height="104"/>
+                                <rect key="frame" x="38" y="131.5" width="300" height="122"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="jLM-LZ-JbR" secondAttribute="height" multiplier="312:108" id="55d-39-lQD"/>
+                                    <constraint firstAttribute="width" secondItem="jLM-LZ-JbR" secondAttribute="height" multiplier="310:126" id="55d-39-lQD"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="iKQ-je-J62" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="1h2-SD-USt"/>
                             <constraint firstItem="nic-lw-NOm" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="5t5-VX-9PH"/>
                             <constraint firstItem="nic-lw-NOm" firstAttribute="top" secondItem="jLM-LZ-JbR" secondAttribute="bottom" constant="42" id="7id-Jc-7Cn"/>
                             <constraint firstItem="iKQ-je-J62" firstAttribute="top" secondItem="nic-lw-NOm" secondAttribute="bottom" constant="50" id="BYf-HC-pTo"/>
+                            <constraint firstItem="nic-lw-NOm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="RIG-4u-f0E"/>
                             <constraint firstItem="iKQ-je-J62" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.2" id="TiB-lv-1KG"/>
                             <constraint firstItem="jLM-LZ-JbR" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="VTY-cW-Wlf"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TUQ-oY-JdV" secondAttribute="bottom" constant="8" id="cgV-Di-Shz"/>
