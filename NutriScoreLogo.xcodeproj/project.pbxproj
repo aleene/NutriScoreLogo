@@ -14,6 +14,7 @@
 		5117F1B31E85221E00DCC137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5117F1B11E85221E00DCC137 /* LaunchScreen.storyboard */; };
 		5117F1C31E856FC700DCC137 /* NutriScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5117F1C21E856FC700DCC137 /* NutriScoreView.swift */; };
 		5117F1C51E8570F100DCC137 /* NutriScoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5117F1BA1E8522F200DCC137 /* NutriScoreView.xib */; };
+		51586E401E86AF8B00A85900 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 51586E3F1E86AF8B00A85900 /* README.md */; };
 		51BD5B251E86ACE400FA2081 /* iPhone5SscreenShot.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BD5B241E86ACE400FA2081 /* iPhone5SscreenShot.png */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +28,7 @@
 		5117F1B41E85221E00DCC137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = NutriScoreLogo/Info.plist; sourceTree = "<group>"; };
 		5117F1BB1E8522F200DCC137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/NutriScoreView.xib; sourceTree = "<group>"; };
 		5117F1C21E856FC700DCC137 /* NutriScoreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NutriScoreView.swift; path = NutriScoreLogo/NutriScoreView.swift; sourceTree = "<group>"; };
-		513A140B1E85973000DBE4BD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = NutriScoreLogo/README.md; sourceTree = "<group>"; };
+		51586E3F1E86AF8B00A85900 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		51BD5B241E86ACE400FA2081 /* iPhone5SscreenShot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone5SscreenShot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,11 +46,11 @@
 		5117F19C1E85221D00DCC137 = {
 			isa = PBXGroup;
 			children = (
-				513A140B1E85973000DBE4BD /* README.md */,
 				5117F1A81E85221E00DCC137 /* AppDelegate.swift */,
 				5117F1AA1E85221E00DCC137 /* ViewController.swift */,
 				5117F1AF1E85221E00DCC137 /* Assets.xcassets */,
 				5117F1AC1E85221E00DCC137 /* Main.storyboard */,
+				51586E3F1E86AF8B00A85900 /* README.md */,
 				5117F1C21E856FC700DCC137 /* NutriScoreView.swift */,
 				5117F1BA1E8522F200DCC137 /* NutriScoreView.xib */,
 				5117F1B11E85221E00DCC137 /* LaunchScreen.storyboard */,
@@ -144,6 +145,7 @@
 			files = (
 				5117F1C31E856FC700DCC137 /* NutriScoreView.swift in Sources */,
 				5117F1AB1E85221E00DCC137 /* ViewController.swift in Sources */,
+				51586E401E86AF8B00A85900 /* README.md in Sources */,
 				5117F1A91E85221E00DCC137 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
