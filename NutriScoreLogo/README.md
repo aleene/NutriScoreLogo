@@ -6,6 +6,9 @@ The logo is scalable and adheres to autolayout.
 
 ## Example
 
+/Users/arnaud/Programming/NutriScoreLogo/iPhone5SscreenShot.png
+
+
 ## Demo
 
 The repository contains a demo app, which shows you how the logo looks like in three different sizes. And you can set score for each of the five possible scores.
