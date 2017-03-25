@@ -6,7 +6,7 @@ The logo is scalable and adheres to autolayout.
 
 ## Example
 
-/Users/arnaud/Programming/NutriScoreLogo/iPhone5SscreenShot.png
+![iPhone 5S demo](https://github.com/aleene/NutriScoreLogo/blob/master/iPhone5SscreenShot.png)
 
 
 ## Demo
