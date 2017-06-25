@@ -186,9 +186,9 @@ class NutriScoreView: UIView {
             return nil
         }
     }
-
-    override func draw(_ rect: CGRect) {
+    
+    override func layoutSubviews() {
+        super.layoutSubviews()
         setupViews()
     }
-    
 }
