@@ -99,7 +99,7 @@ class NutriScoreView: UIView {
     
     @IBOutlet weak var ESelectedLabel: UILabel!
     
-    public enum Score {
+    public enum Score: String {
         case A
         case B
         case C
